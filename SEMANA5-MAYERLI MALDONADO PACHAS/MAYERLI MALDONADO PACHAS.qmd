@@ -1,0 +1,22 @@
+---
+title: "SEMANA 5-GRAFICOS"
+author: "MAYERLI MALDONADO PACHAS"
+format: html
+editor: visual
+---
+
+You can add options to executable code like this
+
+```{r}
+#CREANDO DATOS
+
+Categorias<-c("Diabetes","Dengue","Asma","Hepatitis")
+Valores<-c(10,20,30,40)
+```
+
+```{r}
+#Generando el gráfico de barras
+
+barplot(Valores,names.arg=Categorias,col="skyblue",main="Gráfico de barras",
+        xlab="Categorias",ylab="Valores",border="black")
+```
